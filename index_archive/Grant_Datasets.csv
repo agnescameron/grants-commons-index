@@ -1,4 +1,4 @@
-uuid,point_of_contact,still_active?,shortname,location,country,associated_platform,title,cost_to_access,terms_of_use,fields_included,number_of_records,notes
+uuid,point_of_contact,still_active?,shortname,location,country,associated_platform,title,number_of_records,cost_to_access,terms_of_use,fields_included,notes
 rec888lErRahJb4LI,Jeff Ubois,True,lever_for_change_torque,https://torque.leverforchange.org/help/index.php/Main_Page,United States of America,Lever for Change,Torque,,,,,
-rec9PDoTtf0QEiPr6,agnes again,True,dataset_3,www.example.com,United States of America,title,Dataset 3,300.0,license details,"['biomedical sciences', 'electronics', 'arts']",100000,
+rec9PDoTtf0QEiPr6,agnes again,True,dataset_3,www.example.com,United States of America,title,Dataset 3,100000,300.0,license details,"['biomedical sciences', 'electronics', 'arts']",
 recqJwzGDGmfb1PM7,Agnes,,dataset_2,google.com,United Kingdom,Platform title,Dataset 2,,,,,some notes
