@@ -35,9 +35,9 @@
 								<a href="https://docs.google.com/spreadsheets/d/1LQKMaOQlC_flskr2-9Src7RFtMRPrICCk20qYX8X2OY/edit#gid=1389884911"><img src="/assets/edit.png"></a>
 							{% endif %}
 						</div>
-						{% if page.website_link and page.website_link != '' %}
+						{% if page.location and page.location != '' %}
 						<p>
-								<b>location:</b> <a href='{{ page.website_link }}'>{{ page.website_link }}</a><br>
+								<b>location:</b> <a href='{{ page.location }}'>{{ page.location }}</a><br>
 						</p>
 						{% endif %}
 						{% if page.relationship_description and page.relationship_description != '' %}
@@ -56,7 +56,24 @@
 							</p>
 						{% endif %}
 
-						{% assign DISPLAY_FIELDS = "terms_of_use, documentation, point_of_contact, citation, description, record_last_updated" | split: ', ' %}
+						{% if page.fields_included and page.fields_included.size > 0 %}
+							<p>
+								<b>relevant fields included in dataset:</b>
+								<ul>
+									{% for field in page.fields_included %}
+										<li>{{ field }}</li>
+									{% endfor %}
+								</ul>
+							</p>
+						{% endif %}
+
+						{% if page.still_active? == true %}
+							<p>
+								<b>status:</b> active
+							</p>
+						{% endif %}
+
+						{% assign DISPLAY_FIELDS = "terms_of_use, associated_platform, point_of_contact, cost_to_access, description, number_of_records, country, last_edit" | split: ', ' %}
 
 						{% for field in page %}
 							{% if DISPLAY_FIELDS contains field %}
