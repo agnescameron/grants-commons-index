@@ -26,7 +26,7 @@ jobs:
 
       - name: Copy files to site and add layout
         run: |
-            IFS=';' read -ra input_array <<< "${{ env.INPUT_FOLDERS }}"
+            IFS=';' read -ra input_array <<< "$INPUT_FOLDERS"
             for dir in "${input_array[@]}"; do
               cp -r ${dir}/* app/index/_${dir}/
               echo 'app/index/_${dir}/'
