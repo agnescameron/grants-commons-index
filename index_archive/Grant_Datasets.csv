@@ -1,4 +1,4 @@
-uuid,point_of_contact,still_active?,shortname,location,country,associated_platform,title,last_edit,number_of_records,cost_to_access,terms_of_use,fields_included,notes
-rec888lErRahJb4LI,Jeff Ubois,True,lever_for_change_torque,https://torque.leverforchange.org/help/index.php/Main_Page,United States of America,Lever for Change,Torque,2022-03-08T20:27:53.000Z,,,,,
-rec9PDoTtf0QEiPr6,agnes again,True,dataset_3,www.example.com,United States of America,title,Dataset 3,2022-03-14T12:27:16.000Z,100000,300.0,license details,"['biomedical sciences', 'electronics', 'arts']",
-recqJwzGDGmfb1PM7,Agnes,,dataset_2,google.com,United Kingdom,Platform title,Dataset 2,2022-03-14T12:10:31.000Z,,,,,some notes
+uuid,point_of_contact,still_active?,shortname,location,country,associated_platform,title,last_edit,notes
+rec888lErRahJb4LI,Jeff Ubois,True,lever_for_change_torque,https://torque.leverforchange.org/help/index.php/Main_Page,United States of America,Lever for Change,Torque,2022-03-08T20:27:53.000Z,
+recXlZLcyPqsq5UN6,,,dataset_3,,,,something,2022-03-14T15:44:12.000Z,
+recqJwzGDGmfb1PM7,Agnes,,dataset_2,google.com,United Kingdom,Platform title,Dataset 2,2022-03-14T12:10:31.000Z,some notes
