@@ -1,0 +1,12 @@
+---
+---
+
+[
+  {% for tool in site.tools %}
+    {
+      "tags"     : "{{ tool.type | join: ', ' }}",
+      "title"    : "{{ tool.title | escape }}",
+      "url"      : "{{ site.baseurl }}{{ tool.url }}"
+    } {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]

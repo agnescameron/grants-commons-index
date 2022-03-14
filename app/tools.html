@@ -1,0 +1,21 @@
+---
+title: Curated tools, software and platforms
+layout: list
+---
+
+<p>This </p>
+
+<ul class=indexList>
+{% for tool in site.tools %}
+	<li onclick="location.href='{{ tool.url }}';">
+		<div class="itemThumb">
+			{% if tool.thumbnail_url %}
+				<img src="{{ tool.thumbnail_url }}"/>
+			{% elsif tool.uuid %}
+				<img src="/assets/thumbnails/{{ tool.uuid }}.png"/>
+			{% endif %}
+		</div>
+	<div class="itemCard"><b>{{ tool.title }}</b><br>
+	{{ tool.description | strip_html | truncate: 250 }}</div></li>
+{% endfor %}
+</ul>
