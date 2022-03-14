@@ -8,7 +8,7 @@ on:
       - main
 
 env:
-  JOB_DESC: "Pulling regular updates from the Grants Commons Airtable"
+  JOB_DESC: 
   BASE_ID: 'app7sFRPnVbNg1Xoo'
   TABLE_NAME: 'Grant Datasets'
   TABLE_ID: 'tblAFLVxmOjydBGYg'
@@ -19,7 +19,7 @@ env:
 jobs:
   pull_sheet:
     runs-on: ubuntu-latest
-    name: ${{ env.JOB_DESC }}
+    name: "${{ env.JOB_DESC }}"
     steps:
       - name: checkout repository
         uses: actions/checkout@v2
