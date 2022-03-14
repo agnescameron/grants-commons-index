@@ -1,2 +1,3 @@
-uuid,point_of_contact,still_active?,shortname,location,country,associated_platform,title
-rec888lErRahJb4LI,Jeff Ubois,True,lever_for_change_torque,https://torque.leverforchange.org/help/index.php/Main_Page,United States of America,Lever for Change,Torque
+uuid,point_of_contact,still_active?,shortname,location,country,associated_platform,title,notes
+rec888lErRahJb4LI,Jeff Ubois,True,lever_for_change_torque,https://torque.leverforchange.org/help/index.php/Main_Page,United States of America,Lever for Change,Torque,
+recqJwzGDGmfb1PM7,Agnes,,dataset_2,google.com,United Kingdom,Platform title,Dataset 2,some notes
