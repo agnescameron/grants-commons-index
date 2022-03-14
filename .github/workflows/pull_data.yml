@@ -69,6 +69,7 @@ jobs:
             git pull
             git config user.name github-actions
             git config user.email github-actions@github.com
+            echo 'adding "$ARCHIVE_DIR" "$FILES_DIR" app/assets/thumbnails'
             git add "$ARCHIVE_DIR" "$FILES_DIR" app/assets/thumbnails
             git commit -m "generated files based on airtable"
             git push
