@@ -6,8 +6,8 @@ fields_included:
 - biomedical sciences
 - electronics
 - arts
-last_edit: '2022-03-14T15:44:12.000Z'
-location: www.example.com
+last_edit: '2022-03-14T15:53:28.000Z'
+location: example.com
 number_of_records: '100000'
 point_of_contact: agnes again
 shortname: dataset_3
