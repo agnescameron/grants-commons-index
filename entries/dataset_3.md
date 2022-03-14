@@ -6,6 +6,7 @@ fields_included:
 - biomedical sciences
 - electronics
 - arts
+last_edit: '2022-03-14T12:27:16.000Z'
 location: www.example.com
 number_of_records: '100000'
 point_of_contact: agnes again
