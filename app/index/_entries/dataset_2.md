@@ -1,12 +1,12 @@
 ---
 layout: default
-associated_platform: Platform title
+associated_platform: Results for Development
 country: United Kingdom
-last_edit: '2022-03-14T12:10:31.000Z'
-location: google.com
+last_edit: '2022-07-18T03:31:00.000Z'
+location: https://docs.google.com/spreadsheets/d/1Krpro1m4EXR5TYTPMIfPulKSfIXnoQSd/edit#gid=1905293982
 notes: some notes
 point_of_contact: Agnes
-shortname: dataset_2
-title: Dataset 2
+shortname: r4d_global_dev_innovs
+title: Global Development Innovation Database
 uuid: recqJwzGDGmfb1PM7
 ---
