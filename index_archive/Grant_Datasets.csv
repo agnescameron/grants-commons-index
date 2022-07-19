@@ -1,5 +1,5 @@
-uuid,point_of_contact,still_active?,shortname,location,country,associated_platform,title,last_edit,cost_to_access,format
+uuid,point_of_contact,still_active?,shortname,location,country,associated_platform,title,last_edit,format,cost_to_access
 rec888lErRahJb4LI,Jeff Ubois,True,lever_for_change_torque,https://torque.leverforchange.org/help/index.php/Main_Page,United States of America,Lever for Change,Torque,2022-03-08T20:27:53.000Z,,
 recXlZLcyPqsq5UN6,Benjamin Mako Hill,True,wmf_research_tech,https://meta.wikimedia.org/wiki/Grants:Programs/Wikimedia_Research_%26_Technology_Fund,Global,WikiMedia Foundation,Wikimedia Research and Technology Fund Stage 2,2022-07-19T22:14:54.000Z,,
-recq1aiEMkX0bGfKC,Laurie Taylor,True,ir_uf_grant_collection,https://ufdc.ufl.edu/collections/ufirgrants/results?view=thumbnail,United States of America,University of Florida,IR@UF Grant Proposals Collection,2022-07-19T22:11:21.000Z,0.0,Search engine
+recq1aiEMkX0bGfKC,Laurie Taylor,True,ir_uf_grant_collection,https://ufdc.ufl.edu/collections/ufirgrants/results?view=thumbnail,United States of America,University of Florida,IR@UF Grant Proposals Collection,2022-07-19T22:11:21.000Z,Search engine,0.0
 recqJwzGDGmfb1PM7,,,r4d_global_dev_innovs,https://docs.google.com/spreadsheets/d/1Krpro1m4EXR5TYTPMIfPulKSfIXnoQSd/edit#gid=1905293982,United Kingdom,Results for Development,Global Development Innovation Database ,2022-07-18T14:46:38.000Z,,
